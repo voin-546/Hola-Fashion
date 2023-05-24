@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Playfair+Display:wght@700&family=Poppins:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 115px;
+}
+.logo {
+    font-family: 'Poppins';
+font-weight: 700;
+font-size: 30px;
+line-height: 45px;
+color: #91916C;
+}
+.burger {
+    display: none;
+}
+nav ul {
+    display: flex;
+}
+nav ul li a {
+    font-family: 'Nunito Sans';
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+color: #000000;
+margin: 0 25px;
+}
+nav ul li a.active {
+    color: #91916C;
+    border-bottom: 2px solid #91916C;
+}
+.container {
+    max-width: 1240px;
+    margin: auto;
+}
+main .container {
+    display: flex;
+    justify-content: space-between;
+}
+main .text {
+    width: 47%;
+}
+main h1 {
+    font-family: 'Playfair Display';
+font-weight: 700;
+font-size: 56px;
+line-height: 139%;
+letter-spacing: 0.02em;
+color: #E5A985;
+padding-top: 57px;
+}
+main p {
+    font-family: 'Nunito Sans';
+font-weight: 400;
+font-size: 24px;
+line-height: 171%;
+letter-spacing: 0.02em;
+color: #4A4747;
+padding-top: 39px;
+}
+main form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+main input {
+    width: 75%;
+    border: none;
+    outline: none;
+    padding: 0 30px;
+    height: 58px;
+    background: #E5E5E5;
+    border-radius: 8px 0px 0px 8px;
+    font-family: 'Nunito Sans';
+}
+main a {
+    padding: 16px 22px 15px 23px;
+    background: #91916C;
+    border-radius: 0px 8px 8px 0px;
+    color: #fff;
+    font-family: 'Nunito Sans';
+font-weight: 700;
+font-size: 20px;
+line-height: 135.5%;
+}
+main input::placeholder {
+    font-family: 'Nunito Sans';
+font-weight: 700;
+font-size: 20px;
+line-height: 135.5%;
+color: #C4C4C4;
+}
+section.info {
+    width: 100%;
+    height: 1024px;
+    background: #E1E1C2;
+    padding: 120px 80px 46px 80px;
+}
+.text-center {
+    width: 50%;
+    text-align: center;
+}
+.text-center h2 {
+    font-family: 'Nunito Sans';
+font-weight: 700;
+font-size: 32px;
+line-height: 139%;
+text-align: center;
+letter-spacing: 0.03em;
+color: #91916C;
+text-transform: uppercase;
+}
+.text-center h2::after {
+    content: '';
+    display: block;
+    background: #91916C;
+    width: 288px;
+    height: 3px;
+    margin: 20px auto;
+}
+section.info h1 {
+    font-family: 'Playfair Display';
+font-weight: 700;
+font-size: 48px;
+line-height: 139%;
+letter-spacing: 0.02em;
+color: #65653E;
+}
+  .content {
+    margin: auto;
+    padding: 30px;
+    width: 100%;
+    max-width: 1100px;
+    cursor: move;
+  }
+  .content img {
+    width: 90%;
+    margin: auto;
+  }
+  .content h5 {
+    padding-top: 33px;
+    font-family: 'Nunito Sans';
+font-weight: 700;
+font-size: 20px;
+line-height: 139%;
+text-align: center;
+letter-spacing: 0.02em;
+color: #333333;
+}
+.text-center.two {
+    margin-top: 82px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 76px;
+}
+.cards .card {
+    width: 31%;
+    text-align: center;
+    background: #FAE3D8;
+    border-radius: 20px;
+    transition: .5s;
+}
+.cards img {
+    width: 100%;
+}
+.card h3 {
+    font-family: 'Nunito Sans';
+font-weight: 400;
+font-size: 24px;
+line-height: 138.5%;
+text-align: center;
+letter-spacing: 0.02em;
+color: #000000;
+padding: 25px;
+transition: .5s;
+}
+.cards > .card:hover h3 {
+    color: #fff;
+    transition: .5s;
+}
+.cards > .card:hover {
+    transform: scale(1.1);
+    background: #91916C;
+    box-shadow: 10px 10px 35px 2px rgba(89, 56, 14, 0.1);
+}
+.text-center.three h2::after {
+    background: #BD957E;
+}
+.text-center.three {
+    margin-top: 73px;
+}
+.card p {
+    font-family: 'Nunito Sans';
+font-weight: 400;
+font-size: 20px;
+line-height: 171.5%;
+letter-spacing: 0.02em;
+color: #333333;
+padding-left: 32px;
+}
+.blog .card {
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 76px;
+}
+.blog {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.login h1 {
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 139%;
+letter-spacing: 0.02em;
+color: #fff;
+padding-top: 42px;
+}
+.login {
+    width: 100%;
+    height: 833px;
+    background: #91916C;
+    margin-top: 85px;
+}
+.login .text-center {
+    width: 40%;
+}
+.login img {
+    margin-top: 81px;
+}
+.login form {
+    width: 50%;
+    margin-top: 157px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 313px;
+}
+.login input {
+    background: rgba(225, 225, 194, 0.4);
+    border-radius: 8px;
+    height: 58px;
+    border: none;
+    padding: 0 25px;
+    font-family: 'Nunito Sans';
+    outline: none;
+    color: #fff;
+    font-size: 19px;
+}
+.login input[type="text"] {
+    width: 48%;
+}
+.login input::placeholder {
+    font-family: 'Nunito Sans';
+font-weight: 400;
+font-size: 20px;
+line-height: 135.5%;
+color: #Ffff;
+}
+.login input[type="email"], .login input[type="subject"] {
+    width: 100%;
+}
+.regist {
+    display: flex;
+    justify-content: space-between;
+}
+.login a {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 135.5%;
+color: #fff;
+background:  #E5A985;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 8px;
+}
+@media (max-width: 1320px) {
+    header {
+        padding: 0 95px;
+    }
+}
+@media (max-width: 1135px) {
+    header {
+        padding: 0 35px;
+    }
+}
+@media (max-width: 890px) {
+    header {
+        padding: 25px 20px;
+        height: 100px;
+        align-items: start;
+        transition: .5s;
+    }
+    header.show {
+        height: 350px;
+        transition: .5s;
+    }
+    header.show nav, header.show ul  {
+        height: 250px;
+        transition: .5s;
+    }
+    nav {
+        height: 250px;
+        overflow: hidden;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        transition: .5s;
+    }
+    nav ul {
+        flex-direction: column;
+        line-height: 45px;
+        height: 0;
+        transition: .5s;
+        overflow: hidden;
+    }
+    .burger {
+        width: 60px;
+        height: 45px;
+        position: relative;
+        transform: rotate(0deg);
+        transition: .5s ease-in-out;
+        cursor: pointer;
+        display: block;
+      }
+      .burger > .line {
+        position: absolute;
+        height: 5px;
+        width: 100%;
+        background: #65653E;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;
+      }
+      
+.burger > .line:nth-child(1) {
+    top: 0px;
+    transform-origin: left center;
+  }
+  
+  .burger > .line:nth-child(2) {
+    top: 18px;
+    transform-origin: left center;
+  }
+  
+  .burger > .line:nth-child(3) {
+    top: 36px;
+    transform-origin: left center;
+  }
+  
+  header.show .burger > .line:nth-child(1) {
+    transform: rotate(45deg);
+    top: -3px;
+    left: 8px;
+  }
+  
+  header.show .burger > .line:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+  }
+  
+  header.show .burger > .line:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 39px;
+    left: 8px;
+  }
+}
+@media (max-width: 576px) {
+    main .container {
+        flex-direction: column;
+    }
+    .container {
+        width: 100%;
+    }
+    main img, main .text {
+        width: 100%;
+        text-align: center;
+    }
+    main h1, main p {
+        padding: 10px;
+    }
+    main form {
+        align-items: center;
+        width: 90%;
+        margin: 30px auto;
+    }
+    main a {
+        text-align: start;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        padding: 15px 10px;
+    }
+    section.info .text-center, .text-center.two, .text-center.three, .content img, .login .text-center, .login img, .text-center h2::after {
+        width: 100%;
+    }
+    .text-center h2::after {
+        max-width: 250px;
+    }
+    .content {
+        width: 95%;
+        padding: 0;
+        margin: auto;
+    }
+    .cards, .login, .login .regist {
+        flex-direction: column;
+        height: 100%;
+    }
+    .cards .card, .blog .card {
+        width: 85%;
+        margin: 30px auto;
+    }
+    .login .regist {
+        flex-direction: column-reverse;
+    }
+    .login img {
+        margin: 30px auto;
+    }
+    .login .img {
+        width: 95%;
+        margin: auto;
+    }
+    .login form {
+        width: 95%;
+        margin: auto;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    main .container {
+        flex-direction: column;
+    }
+    main .text {
+        padding: 10px;
+        text-align: center;
+    }
+    main img, main .text, section.info .text-center, .login img {
+        width: 100%;
+    }
+    section .info {
+        padding: 120px 10px;
+    }
+    main form {
+        align-items: center;
+        width: 90%;
+        margin: 30px auto;
+    }
+    main a {
+        text-align: start;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        padding: 15px 10px;
+    }
+    .cards .card {
+        width: 32%;
+        margin: auto;
+    }
+    .blog .card {
+        width: 46%;
+        margin: 30px auto;
+    }
+    .blog .card p {
+        padding: 0 0 0 5px;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    .login .text-center {
+        width: 75%;
+    }
+    .login .img {
+        width: 45%;
+    }
+    .regist {
+        padding: 0 10px;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+    main .img {
+        width: 45%;
+    }
+    main img, .login img {
+        width: 100%;
+    }
+    main .text {
+        width: 52%;
+    }
+    main a {
+        padding: 15px 7px;
+    }
+    main form {
+        align-items: center;
+    }
+    section.info .text-center {
+        width: 85%;
+    }
+    .cards .card {
+        width: 31%;
+        margin: auto;
+    }
+    .blog .card {
+        width: 45%;
+        margin: 30px auto;
+    }
+    .blog .card p {
+        padding: 0 0 0 15px;
+        font-size: 15px;
+    }
+    .login .img {
+        width: 45%;
+        margin: auto;
+    }
+    .login form {
+        width: 48%;
+        margin: auto;
+    }
+}
+@media (min-width: 993px) and (max-width: 1240px) {
+    .container {
+        width: 100%;
+    }
+    main .img {
+        width: 40%;
+        margin: auto;
+    }
+    main .text {
+        width: 53%;
+        margin: auto;
+    }
+    main img {
+        width: 100%;
+    }
+    .cards .card, .blog .card {
+        width: 31%;
+        margin: auto;
+    }
+    .blog .card {
+        margin: 30px auto;
+    }
+    .card p {
+        font-size: 16px;
+    }
+    .login .img, .login form {
+        width: 45%;
+        margin: auto;
+    }
+}
